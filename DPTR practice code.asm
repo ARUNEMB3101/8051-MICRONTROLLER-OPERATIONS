@@ -1,0 +1,11 @@
+ORG 00h
+SETB B.0
+inc A
+INC DPTR
+MOV A ,#34
+MOV B, #0
+DIV AB
+INC DPTR
+MOV  A , #25
+DA A
+END
